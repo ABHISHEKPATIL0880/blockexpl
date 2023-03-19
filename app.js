@@ -13,11 +13,6 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
 
-
-
-
-
-
 app.post('/query', (req, res) => {
   const input = req.body.input;
 
@@ -78,7 +73,8 @@ app.post('/query', (req, res) => {
         return;
       }
 
-      const table = `
+
+      const table  = `
         <table>
           <tr><td>Block number:</td><td>${block.number}</td></tr>
           <tr><td>Block hash:</td><td>${block.hash}</td></tr>
@@ -92,6 +88,7 @@ app.post('/query', (req, res) => {
           <tr><td>Number of transactions:</td><td>${block.transactions.length}</td></tr>
         </table>
       `;
+      
       res.send(table);
     });
   } else {

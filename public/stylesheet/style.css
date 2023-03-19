@@ -67,21 +67,21 @@ button {
 }
 
 #search-btn img {
-  width: 28px; /* Change this value to adjust the width of the image */
-  height: 18px; /* Change this value to adjust the height of the image */
+  width: 28px; 
+  height: 18px; 
 }
 label {
-  display: block; /* Displays the label as a block element */
-  font-size: 18px; /* Sets the font size of the label */
-  font-weight: bold; /* Sets the font weight of the label */
-  margin-bottom: 10px; /* Adds a bottom margin to the label */
+  display: block; 
+  font-size: 18px; 
+  font-weight: bold; 
+  margin-bottom: 10px; 
 }
 
 input[type="text"] {
-  padding: 10px; /* Adds padding to the text input */
-  font-size: 16px; /* Sets the font size of the text input */
-  border: 1px solid #ccc; /* Sets the border of the text input */
-  border-radius: 5px; /* Adds rounded corners to the text input */
+  padding: 10px; 
+  font-size: 16px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
 }
 
   #connect-btn {
@@ -124,11 +124,6 @@ input[type="text"] {
   border-radius: 5px;
   cursor: pointer;
 }
-
-
-
-
-
 
 @media only screen and (max-width: 768px) {
   body {
