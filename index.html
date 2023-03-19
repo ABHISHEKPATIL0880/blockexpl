@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang ="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blockchain Explorer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@metamask/detect-provider@1.2.0/dist/index.min.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheet/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@metamask/detect-provider@1.2.0/dist/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script src="/app.js"></script>
+    <script src="/script/wallet.js"></script>
+</head>
+  <div>
+  <button id="connect-btn" ><img src="/images/M.png" alt="yup"> </button>
+ </div>
+  <h1>The Ethereum Blockchain Explorer</h1>
+ 
+  <form action="/query" method="post">
+    <label for="input"></label>
+    <input type="text" id="input" name="input" required placeholder="Search by Txn Hash, Block Hash or Block Number">
+    <button type="submit" id="search-btn"><img src="/images/search_icon_generated.jpg" alt="Search"></button>
+ </form>
+  <img src="/images/giphy.gif" alt="Description of the GIF" style="display: block; margin: 70px auto; width: 20%; ">
+
+</body>
+</html>

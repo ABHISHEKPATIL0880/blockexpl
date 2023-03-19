@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url("/images/header.jpg") ;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  margin-top: 400px;
+  margin-bottom: 30px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+form {
+  display: inline-block;
+  text-align: left;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  
+}
+
+input {
+  width: 400px;
+  margin-bottom: 20px;
+  
+  font-size: 16px;
+  font-weight: bold;
+ 
+}
+
+button {
+
+  margin-bottom: 10%;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border-color: black;
+ 
+}
+
+#search-btn img {
+  width: 28px; /* Change this value to adjust the width of the image */
+  height: 18px; /* Change this value to adjust the height of the image */
+}
+label {
+  display: block; /* Displays the label as a block element */
+  font-size: 18px; /* Sets the font size of the label */
+  font-weight: bold; /* Sets the font weight of the label */
+  margin-bottom: 10px; /* Adds a bottom margin to the label */
+}
+
+input[type="text"] {
+  padding: 10px; /* Adds padding to the text input */
+  font-size: 16px; /* Sets the font size of the text input */
+  border: 1px solid #ccc; /* Sets the border of the text input */
+  border-radius: 5px; /* Adds rounded corners to the text input */
+}
+
+  #connect-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  #connect-btn {
+    background-image:url(M.png);
+    background-color: transparent;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 40px;
+    font-size: 20px;
+  
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+#connect-btn img{
+  background-image:url(M.png);
+  background-color: transparent;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  height: 60px;
+  width: 60px;
+  background-size: cover;
+  background-position: center;
+  padding: 20px 40px;
+  font-size: 20px;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-position: center;
+  }
+
+  h1 {
+    margin-top: 200px;
+  }
+
+  form {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    margin-top: 150px;
+    font-size: 24px;
+  }
+
+  form {
+    margin-top: 50px;
+  }
+
+  input[type="text"] {
+    width: 80%;
+  }
+}
+
+
