@@ -73,6 +73,8 @@ app.post('/query', (req, res) => {
         return;
       }
 
+      console.log("1111" , table)
+
 
       const table  = `
         <table>
