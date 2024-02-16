@@ -74,6 +74,7 @@ app.post('/query', (req, res) => {
       }
 
       console.log("1111" , table)
+      console.log("1111" , table)
 
 
       const table  = `
